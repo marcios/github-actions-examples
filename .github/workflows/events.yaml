@@ -9,7 +9,7 @@ jobs:
     show-ref-and-sha:
         runs-on: ubuntu-latest
         steps:
-            - name: Echo SHA and REF
+            - name: Echo SHA and REF V2
               run: |
                 echo $GITHUB_SHA
                 echo $GITHUB_REF
